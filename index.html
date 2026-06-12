@@ -1,66 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Page Percy Jackson</title>
 
-<title>Fan Page Percy Jackson</title>
-<link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>⚡ Fan Page - Percy Jackson ⚡</h1>
+    <h1> Fan Page - Percy Jackson </h1>
     <p>Bem-vindo ao Acampamento Meio-Sangue!</p>
 </header>
 
+<nav>
+    <ul>
+        <li><a href="#elenco">Elenco</a></li>
+        <li><a href="#trailer">Trailer</a></li>
+        <li><a href="#personagens">Personagens</a></li>
+        <li><a href="#tabela">Tabela</a></li>
+        <li><a href="#formulario">Formulário</a></li>
+    </ul>
+</nav>
+
 <div class="container">
 
-    <h2>Elenco</h2>
+    <h2 id="elenco">Elenco</h2>
 
     <img class="elenco"
     src="https://atlantidasc.com.br/wp-content/uploads/2025/07/Segunda-temporada-da-serie-de-Percy-Jackson-estreia-no-dia-10-de-dezembro-Foto-Disney-Divulgacao.jpg"
     alt="Elenco Percy Jackson">
 
-    <h2>Trailer</h2>
+    <h2 id="trailer">Trailer Oficial</h2>
 
     <iframe
-    src="https://www.youtube.com/embed/KppxTMh05Xs"
-    title="Trailer Percy Jackson"
-    frameborder="0"
-    allowfullscreen>
+        src="https://www.youtube.com/embed/KppxTMh05Xs"
+        title="Trailer Percy Jackson"
+        allowfullscreen>
     </iframe>
 
-    <h2>Personagens</h2>
+    <h2 id="personagens">Personagens</h2>
 
     <div class="personagens">
 
         <div class="card">
-            <img src="https://www.seriesdatv.pt/wp-content/uploads/2026/02/Percy-Jackson-T2.jpg.webp">
-            <h2>Percy Jackson</h2>
+            <img src="https://www.seriesdatv.pt/wp-content/uploads/2026/02/Percy-Jackson-T2.jpg.webp" alt="Percy Jackson">
+            <h3>Percy Jackson</h3>
             <p>Filho de Poseidon e herói do Acampamento Meio-Sangue.</p>
         </div>
 
         <div class="card">
-            <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2025/12/Annabeth-Percy-Jackson.jpg">
-            <h2>Annabeth</h2>
+            <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2025/12/Annabeth-Percy-Jackson.jpg" alt="Annabeth Chase">
+            <h3>Annabeth Chase</h3>
             <p>Filha de Atena, inteligente e estratégica.</p>
         </div>
 
         <div class="card">
-            <img src="https://cdn.observatoriodocinema.com.br/2025/12/percy-jackson-grover-1024x576.jpg">
-            <h2>Grover</h2>
+            <img src="https://cdn.observatoriodocinema.com.br/2025/12/percy-jackson-grover-1024x576.jpg" alt="Grover">
+            <h3>Grover Underwood</h3>
             <p>Sátiro fiel e divertido do Acampamento.</p>
         </div>
 
     </div>
 
+    <h2 id="tabela">Tabela dos Personagens</h2>
+
+    <table>
+        <tr>
+            <th>Personagem</th>
+            <th>Pai/Mãe Divino(a)</th>
+            <th>Função</th>
+        </tr>
+
+        <tr>
+            <td>Percy Jackson</td>
+            <td>Poseidon</td>
+            <td>Herói</td>
+        </tr>
+
+        <tr>
+            <td>Annabeth Chase</td>
+            <td>Atena</td>
+            <td>Estrategista</td>
+        </tr>
+
+        <tr>
+            <td>Grover Underwood</td>
+            <td>---</td>
+            <td>Sátiro</td>
+        </tr>
+    </table>
+
+    <h2 id="formulario">Formulário de Fã</h2>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <label for="favorito">Personagem Favorito:</label>
+        <select id="favorito">
+            <option>Percy Jackson</option>
+            <option>Annabeth Chase</option>
+            <option>Grover Underwood</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+
 </div>
 
 <footer>
-    <p> Feito por Leonardo Büthner um fã de Percy Jackson ⚡</p>
+    <p> Feito por Leonardo Büthner, fã de Percy Jackson </p>
 </footer>
 
 </body>
